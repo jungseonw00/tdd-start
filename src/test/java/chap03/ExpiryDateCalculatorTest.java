@@ -75,7 +75,7 @@ public class ExpiryDateCalculatorTest {
                 builder()
                         .firstBillingDate(of(2019, 1, 31))
                         .billingDate(of(2019, 2, 28))
-                        .payAmount(20_000)
+                        .payAmount(40_000)
                         .build(),
                 of(2019, 6, 30));
 
